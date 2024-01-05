@@ -1,0 +1,16 @@
+.DS_Store
+.idea/
+logs/
+*.iml
+*.xml
+node_modules
+*-dist
+.tmp
+*.
+*.log
+.sass-cache
+
+# VS Code
+.vscode/
+debug-node-bash.sh
+debug-node-zsh.sh

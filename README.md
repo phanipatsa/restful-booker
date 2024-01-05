@@ -1,10 +1,24 @@
 # restful-booker
-restful booker API tests
+restful booker API tests using jmeter
+API's reference - https://restful-booker.herokuapp.com/apidoc/index.html
+Type of API's - GET/ PATCH/ POST/ DELETE
 
-# How to run tests
+# How to run tests using pre defined npm command and reporting option:
+git clone https://github.com/phanipatsa/restful-booker.git
+git pull
 npm run jmeter_test
 
-# How to pass variable and override jmeter parameters
+# Reports 
+1. Logs, reports will be generated under logs folder.
+2. Click on the folder for specific execution timestamp and open index.html to review the report.
+
+OR 
+
+# Execute via Command line and override the parameters as needed for control the execution:
+
+./apache-jmeter-5.4.1/bin/jmeter -JPROTOCOL=http -JHOST=restful-booker.herokuapp.com -JNUM_USERS=2 -JUSERS_RAMP_UP_SEC=1 -JREQ_COUNT=2 -JREQ_DELAY_MS=200 -JREQ_COUNT_INCREMENT=1 -n -t booker_api.jmx
+
+# How to pass variables and override jmeter parameters
 Supported variables with their default values. Please read this guide first.
 https://www.redline13.com/blog/2018/05/guide-jmeter-thread-groups/
 
