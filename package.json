@@ -1,0 +1,20 @@
+{
+  "name": "booker_api_tests",
+  "version": "1.0.0",
+  "description": "Booker Restful API Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jmeter_test": "timestamp=$(date \"+%s\") && ./apache-jmeter-5.4.1/bin/jmeter -JPROTOCOL=http -JHOST=restful-booker.herokuapp.com -JNUM_USERS=2 -JUSERS_RAMP_UP_SEC=1 -JREQ_COUNT=2 -JREQ_DELAY_MS=200 -JREQ_COUNT_INCREMENT=1 -n -t booker_api.jmx -l logs/jmeter_log_$timestamp.jtl -j logs/jmeter_log_$timestamp.log -e -o logs/jmeter_dashboard_$timestamp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phanipatsa/restful-booker.git"
+  },
+  "author": "Phani Patsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phanipatsa/restful-booker/issues"
+  },
+  "homepage": "https://github.com/phanipatsa/restful-booker#readme"
+}

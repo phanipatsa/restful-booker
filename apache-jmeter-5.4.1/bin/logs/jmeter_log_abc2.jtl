@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1638287015976,1784,https://pt4.mortgages.bmoc.ndm.nomisonline.com/,200,OK,Thread Group 1-1,text,true,,2145606,2240,1,1,https://pt4.mortgages.bmoc.ndm.nomisonline.com/,709,0,600
+1638287015976,713,https://pt4.mortgages.bmoc.ndm.nomisonline.com/-0,200,OK,Thread Group 1-1,text,true,,2478,525,1,1,https://pt4.mortgages.bmoc.ndm.nomisonline.com/,709,0,600
+1638287016729,443,https://pt4.mortgages.bmoc.ndm.nomisonline.com/-1,200,OK,Thread Group 1-1,text,true,,240845,594,1,1,https://pt4.mortgages.bmoc.ndm.nomisonline.com/5c060793a0b2b4d7fe497512124a409d1c5c4771.css?meteor_css_resource=true,184,0,0
+1638287016729,106,https://pt4.mortgages.bmoc.ndm.nomisonline.com/-2,200,OK,Thread Group 1-1,text,true,,3126,529,1,1,https://fonts.googleapis.com/css?family=Roboto+Slab,106,0,75
+1638287016729,1031,https://pt4.mortgages.bmoc.ndm.nomisonline.com/-3,200,OK,Thread Group 1-1,text,true,,1899157,592,1,1,https://pt4.mortgages.bmoc.ndm.nomisonline.com/81db3f5d453971f62680cedf270854b46804eb44.js?meteor_js_resource=true,438,0,264
+1638287017765,90,https://pt4.mortgages.bmoc.ndm.nomisonline.com/sockjs/info?cb=5lblqm7xcc,200,OK,Thread Group 1-1,text,true,,532,388,1,1,https://pt4.mortgages.bmoc.ndm.nomisonline.com/sockjs/info?cb=5lblqm7xcc,89,0,0
+1638287015923,1874,Test,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,2146138,2628,1,1,null,798,58,600

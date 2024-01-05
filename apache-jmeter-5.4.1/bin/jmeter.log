@@ -1,0 +1,22 @@
+2021-11-30 10:49:43,341 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2021-11-30 10:49:43,365 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2021-11-30 10:49:43,366 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2021-11-30 10:49:43,373 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-11-30 10:49:43,373 INFO o.a.j.JMeter: Version 5.4.1
+2021-11-30 10:49:43,373 INFO o.a.j.JMeter: java.version=1.8.0_301
+2021-11-30 10:49:43,373 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-11-30 10:49:43,373 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-11-30 10:49:43,373 INFO o.a.j.JMeter: os.arch=x86_64
+2021-11-30 10:49:43,373 INFO o.a.j.JMeter: os.version=10.16
+2021-11-30 10:49:43,373 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-11-30 10:49:43,373 INFO o.a.j.JMeter: java.awt.headless=null
+2021-11-30 10:49:43,373 INFO o.a.j.JMeter: Max memory     =3817865216
+2021-11-30 10:49:43,374 INFO o.a.j.JMeter: Available Processors =8
+2021-11-30 10:49:43,377 INFO o.a.j.JMeter: Default Locale=English (United States)
+2021-11-30 10:49:43,377 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2021-11-30 10:49:43,377 INFO o.a.j.JMeter: JMeterHome=/Users/PPatsa/Downloads/apache-jmeter-5.4.1
+2021-11-30 10:49:43,377 INFO o.a.j.JMeter: user.dir  =/Users/PPatsa/Downloads/apache-jmeter-5.4.1/bin
+2021-11-30 10:49:43,377 INFO o.a.j.JMeter: PWD       =/Users/PPatsa/Downloads/apache-jmeter-5.4.1/bin
+2021-11-30 10:49:43,394 INFO o.a.j.JMeter: IP: 192.168.68.68 Name: ppatsa-mbp368 FullName: 192.168.68.68
+2021-11-30 10:49:43,992 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2021-11-30 10:49:46,452 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
